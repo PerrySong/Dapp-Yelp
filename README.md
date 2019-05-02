@@ -53,7 +53,7 @@ Bussiness informations and reviews are stored in the block's MPT. When a client 
 ```
 
 # How does the reviews get stored in blockchain?
-Reviews are stored in block
+Both reviews and business information are stored in the MPT of the block
 
 # Who pay the transaction fee?
 Users will have unlimited starting gas for now. And they will attach transaction fee when they submit a transaction.

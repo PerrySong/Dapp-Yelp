@@ -62,7 +62,6 @@ func CreateExtension(hexArr []uint8) Node {
 }
 
 func CreateLeaf(hexArr []uint8, val string) Node {
-
 	return Node{node_type: 2, flag_value: Flag_value{value: val, encoded_prefix: compact_encode(append(hexArr, 16))}}
 }
 
